@@ -1,0 +1,28 @@
+name: dt4rec
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - pip:
+    - numpy
+    - pandas
+    - matplotlib
+    - scipy
+    - scikit-learn
+    - jupyter
+    - ipykernel
+    - tqdm
+    - seaborn
+    - pyyaml
+    - ruamel.yaml
+    - pillow
+    - requests
+    - tqdm
+    - typing_extensions
